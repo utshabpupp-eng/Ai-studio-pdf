@@ -12,6 +12,9 @@ export interface LegalRow {
   pdf_name: string;               // PDF Name
   pdf_path: string;               // PDF Path
   type?: string;                  // धारा | दफा | नियम | निर्देशन | बुँदा | अनुसूची | महल
+  legal_style?: 'bold_and_underline' | 'underline_only' | 'bold_only' | 'regular';
+  sn?: string;
+  order_index?: number;
 }
 
 export interface DocumentSummary {

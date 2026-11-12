@@ -1,5 +1,5 @@
 import React from 'react';
-import { Database, FileSpreadsheet, Download, ExternalLink, ShieldCheck, BookOpen, Layers } from 'lucide-react';
+import { Database, FileSpreadsheet, Download, ExternalLink, ShieldCheck, BookOpen, Layers, Sparkles } from 'lucide-react';
 
 interface NavbarProps {
   totalRows: number;
@@ -7,6 +7,7 @@ interface NavbarProps {
   onExportExcel: () => void;
   onExportCsv: () => void;
   onExportJson: () => void;
+  onOpenGeminiAnalyzer?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -15,6 +16,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onExportExcel,
   onExportCsv,
   onExportJson,
+  onOpenGeminiAnalyzer,
 }) => {
   return (
     <header className="bg-slate-900 border-b border-slate-800 text-white sticky top-0 z-30 shadow-md">
@@ -28,11 +30,14 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="text-lg sm:text-xl font-bold tracking-tight text-white flex items-center gap-2">
-                  नेपाल कानून तथा संबिधान १०-स्तम्भ डेटा प्रणाली
+                  नेपाल कानून तथा संबिधान डेटा पोर्टल
                 </h1>
                 <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
                   <ShieldCheck className="w-3 h-3 mr-1" />
                   प्रमाणित डेटा
+                </span>
+                <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-indigo-500/30 text-indigo-200 border border-indigo-400/30">
+                  MD रिडर + PDF सिंक
                 </span>
               </div>
               <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-400 mt-0.5">
@@ -48,8 +53,19 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
           </div>
 
-          {/* Export Action Buttons */}
+          {/* Action Buttons: AI Analyzer & Exports */}
           <div className="flex items-center gap-2 flex-wrap">
+            {onOpenGeminiAnalyzer && (
+              <button
+                onClick={onOpenGeminiAnalyzer}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white shadow-md shadow-indigo-950/40 border border-indigo-400/40 transition-all active:scale-95 cursor-pointer ring-1 ring-white/20 animate-pulse hover:animate-none"
+                title="AI Powered Legal Header & Style Analysis (Gemini 3.8 Flash)"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+                <span>AI हेडर विश्लेषक</span>
+              </button>
+            )}
+
             <button
               onClick={onExportExcel}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm transition-all active:scale-95 cursor-pointer"

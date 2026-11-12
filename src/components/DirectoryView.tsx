@@ -6,12 +6,14 @@ interface DirectoryViewProps {
   documents: DocumentSummary[];
   onSelectDoc: (filename: string) => void;
   onOpenPdf: (path: string, page: string) => void;
+  onOpenMdSync?: (filename: string, page?: string) => void;
 }
 
 export const DirectoryView: React.FC<DirectoryViewProps> = ({
   documents,
   onSelectDoc,
   onOpenPdf,
+  onOpenMdSync,
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedFolder, setSelectedFolder] = useState<string>('all');
@@ -165,12 +167,21 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
                         </div>
                       </div>
 
-                      <div className="flex items-center gap-2 shrink-0 self-end sm:self-auto">
+                      <div className="flex items-center gap-2 shrink-0 self-end sm:self-auto flex-wrap">
+                        {onOpenMdSync && (
+                          <button
+                            onClick={() => onOpenMdSync(doc.filename, '1')}
+                            className="px-2.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs transition-colors cursor-pointer flex items-center gap-1 shadow-xs"
+                            title="यस कागजातलाई Markdown र PDF सँगै हेर्नुहोस्"
+                          >
+                            <span>MD रिडर र PDF सिंक</span>
+                          </button>
+                        )}
                         <button
                           onClick={() => onSelectDoc(doc.filename)}
                           className="px-2.5 py-1.5 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-medium text-xs transition-colors cursor-pointer"
                         >
-                          तालिकामा १० स्तम्भ हेर्नुहोस्
+                          तालिकामा १० स्तम्भ
                         </button>
                         <button
                           onClick={() => onOpenPdf(doc.path, '1')}

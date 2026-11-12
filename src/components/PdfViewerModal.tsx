@@ -35,8 +35,9 @@ export const PdfViewerModal: React.FC<PdfViewerModalProps> = ({
   if (!isOpen || !pdfPath) return null;
 
   const rawUrl = `https://raw.githubusercontent.com/barshapbp2026/any-pdf-/main/${encodeURIComponent(pdfPath)}`;
-  // For viewing in browser iframe with page anchor:
-  const iframeUrl = `${rawUrl}#page=${currentPage}`;
+  const proxyUrl = `/api/pdf-proxy?path=${encodeURIComponent(pdfPath)}`;
+  // Embed via local/inline proxy with page hash for standard browser PDF viewer
+  const iframeUrl = `${proxyUrl}#page=${currentPage}`;
 
   return (
     <div className="fixed inset-0 z-50 overflow-hidden bg-slate-950/85 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4">

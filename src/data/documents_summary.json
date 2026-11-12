@@ -9,7 +9,7 @@
     "size": 3209892,
     "category": "संविधान",
     "totalSections": 308,
-    "totalSchedules": 9,
+    "totalSchedules": 10,
     "totalRows": 317
   },
   {
@@ -21,9 +21,9 @@
     "filename": "जग्गा नापजाँच (आठौँ संसोधन २०५६) ऐन २०१९,२०५७-०३-०७.pdf",
     "size": 869778,
     "category": "ऐन",
-    "totalSections": 15,
+    "totalSections": 21,
     "totalSchedules": 0,
-    "totalRows": 15
+    "totalRows": 21
   },
   {
     "path": "pdfs/२. ऐन/भुमि सम्बन्धि (आठौ संसोधन) ऐन २०२१, २०७६-१०-२८.pdf",
@@ -34,9 +34,9 @@
     "filename": "भुमि सम्बन्धि (आठौ संसोधन) ऐन २०२१, २०७६-१०-२८.pdf",
     "size": 1393804,
     "category": "ऐन",
-    "totalSections": 43,
-    "totalSchedules": 0,
-    "totalRows": 43
+    "totalSections": 75,
+    "totalSchedules": 2,
+    "totalRows": 77
   },
   {
     "path": "pdfs/२. ऐन/भूउपयोग ऐन २०७६, २०७६-०५-०६.pdf",
@@ -60,9 +60,9 @@
     "filename": "मालपोत (पाँचौ संसोधन २०५४) ऐन २०३४, २०५४-०८-२६.pdf",
     "size": 598549,
     "category": "ऐन",
-    "totalSections": 29,
-    "totalSchedules": 1,
-    "totalRows": 30
+    "totalSections": 36,
+    "totalSchedules": 0,
+    "totalRows": 36
   },
   {
     "path": "pdfs/२. ऐन/मुलुकी ( एघारौं संसोधन २०५८ )ऐन २०२०, २०५९-०६-१०.pdf",
@@ -73,9 +73,9 @@
     "filename": "मुलुकी ( एघारौं संसोधन २०५८ )ऐन २०२०, २०५९-०६-१०.pdf",
     "size": 1339571,
     "category": "ऐन",
-    "totalSections": 16,
-    "totalSchedules": 0,
-    "totalRows": 16
+    "totalSections": 23,
+    "totalSchedules": 1,
+    "totalRows": 24
   },
   {
     "path": "pdfs/३. अध्यादेश/३.१. केहि नेपाल ऐन सम्बन्धि अध्यादेश/केही नेपाल ऐन संशोधन गर्ने अध्यादेश, २०८३-०१-२०.pdf",
@@ -86,9 +86,9 @@
     "filename": "केही नेपाल ऐन संशोधन गर्ने अध्यादेश, २०८३-०१-२०.pdf",
     "size": 475050,
     "category": "अध्यादेश",
-    "totalSections": 20,
+    "totalSections": 30,
     "totalSchedules": 0,
-    "totalRows": 20
+    "totalRows": 30
   },
   {
     "path": "pdfs/३. अध्यादेश/३.२. वन सम्बन्धि अध्यादेश/वन सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्ने अध्यादेश, २०८३-०६-२७.pdf",
@@ -99,9 +99,9 @@
     "filename": "वन सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्ने अध्यादेश, २०८३-०६-२७.pdf",
     "size": 740566,
     "category": "अध्यादेश",
-    "totalSections": 3,
+    "totalSections": 25,
     "totalSchedules": 0,
-    "totalRows": 3
+    "totalRows": 25
   },
   {
     "path": "pdfs/३. अध्यादेश/३.३. भुमि सम्बन्धि अध्यादेश/भूमि सम्बन्धी केही नेपाल ऐन संशोधन गर्ने अध्यादेश, २०८३-०६-२७.pdf",
@@ -112,9 +112,9 @@
     "filename": "भूमि सम्बन्धी केही नेपाल ऐन संशोधन गर्ने अध्यादेश, २०८३-०६-२७.pdf",
     "size": 344044,
     "category": "अध्यादेश",
-    "totalSections": 6,
+    "totalSections": 22,
     "totalSchedules": 0,
-    "totalRows": 6
+    "totalRows": 22
   },
   {
     "path": "pdfs/४. नियमावली/उखडा सम्बन्धी (चौथौ संसोधन २०४२ )नियमहरू २०२१, २०४२-०९-२२.pdf",
@@ -125,9 +125,9 @@
     "filename": "उखडा सम्बन्धी (चौथौ संसोधन २०४२ )नियमहरू २०२१, २०४२-०९-२२.pdf",
     "size": 391583,
     "category": "नियमावली",
-    "totalSections": 12,
-    "totalSchedules": 0,
-    "totalRows": 12
+    "totalSections": 15,
+    "totalSchedules": 4,
+    "totalRows": 19
   },
   {
     "path": "pdfs/४. नियमावली/जग्गा नाप जाँच ( दोस्रो संसोधन २०८३) नियमावली २०५८, २०८३-०२-२८.pdf",
@@ -138,9 +138,9 @@
     "filename": "जग्गा नाप जाँच ( दोस्रो संसोधन २०८३) नियमावली २०५८, २०८३-०२-२८.pdf",
     "size": 1358993,
     "category": "नियमावली",
-    "totalSections": 37,
-    "totalSchedules": 24,
-    "totalRows": 61
+    "totalSections": 39,
+    "totalSchedules": 16,
+    "totalRows": 55
   },
   {
     "path": "pdfs/४. नियमावली/भूउपयोग (तेस्रो संसोधन २०८२ ) नियमावली २०७९, २०८३-०७-२७.pdf",
@@ -151,9 +151,9 @@
     "filename": "भूउपयोग (तेस्रो संसोधन २०८२ ) नियमावली २०७९, २०८३-०७-२७.pdf",
     "size": 1158421,
     "category": "नियमावली",
-    "totalSections": 20,
-    "totalSchedules": 0,
-    "totalRows": 20
+    "totalSections": 29,
+    "totalSchedules": 4,
+    "totalRows": 33
   },
   {
     "path": "pdfs/४. नियमावली/मालपोत (नवौं संसोधन २०८३) नियमावली २०३६, २०८३-०२-२८.pdf",
@@ -164,9 +164,9 @@
     "filename": "मालपोत (नवौं संसोधन २०८३) नियमावली २०३६, २०८३-०२-२८.pdf",
     "size": 2515953,
     "category": "नियमावली",
-    "totalSections": 24,
-    "totalSchedules": 37,
-    "totalRows": 61
+    "totalSections": 73,
+    "totalSchedules": 22,
+    "totalRows": 95
   },
   {
     "path": "pdfs/५. निर्देशिका/५.१. भुमि प्रशासन निर्देशिका, २०८१/भूमि प्रशासन ( तेस्रो संसोधन २०८२) निर्देशिका २०८१, २०८२-१२-०६.pdf",
@@ -177,9 +177,9 @@
     "filename": "भूमि प्रशासन ( तेस्रो संसोधन २०८२) निर्देशिका २०८१, २०८२-१२-०६.pdf",
     "size": 3726200,
     "category": "निर्देशिका",
-    "totalSections": 180,
-    "totalSchedules": 99,
-    "totalRows": 279
+    "totalSections": 436,
+    "totalSchedules": 64,
+    "totalRows": 500
   },
   {
     "path": "pdfs/५. निर्देशिका/५.२. जग्गा नापजाँच तथा नक्सा स्रेस्ता अध्यावधिक सम्बन्धि निर्देशिका, २०८१/जग्गा नापजाँच तथा नक्सा स्रेस्ता अध्यावधिक सम्बन्धि निर्देशिका, २०८१.pdf",
@@ -190,9 +190,9 @@
     "filename": "जग्गा नापजाँच तथा नक्सा स्रेस्ता अध्यावधिक सम्बन्धि निर्देशिका, २०८१.pdf",
     "size": 17805016,
     "category": "निर्देशिका",
-    "totalSections": 7,
-    "totalSchedules": 2,
-    "totalRows": 9
+    "totalSections": 53,
+    "totalSchedules": 32,
+    "totalRows": 85
   },
   {
     "path": "pdfs/८. अख्तियार दुरुपयोग अनुसन्धान आयोग/भ्रष्टाचार निवारण (पहिलो संसोधन २०८१) ऐन २०५९, २०८१-१२-०३.pdf",
@@ -203,9 +203,9 @@
     "filename": "भ्रष्टाचार निवारण (पहिलो संसोधन २०८१) ऐन २०५९, २०८१-१२-०३.pdf",
     "size": 1070470,
     "category": "अन्य",
-    "totalSections": 58,
+    "totalSections": 77,
     "totalSchedules": 0,
-    "totalRows": 58
+    "totalRows": 77
   },
   {
     "path": "pdfs/९. भुमि समस्या समाधान समिति/जग्गा उपलब्ध गराउने सम्बन्धि कार्यविधि, २०८३-०३-०२.pdf",
@@ -216,9 +216,9 @@
     "filename": "जग्गा उपलब्ध गराउने सम्बन्धि कार्यविधि, २०८३-०३-०२.pdf",
     "size": 492840,
     "category": "कार्यविधि",
-    "totalSections": 9,
-    "totalSchedules": 0,
-    "totalRows": 9
+    "totalSections": 14,
+    "totalSchedules": 12,
+    "totalRows": 26
   },
   {
     "path": "pdfs/९. भुमि समस्या समाधान समिति/भुमि आयोग गठन आदेश, २०८१-०६-१४.pdf",
@@ -242,9 +242,9 @@
     "filename": "भूमिहीन दलित भूमिहीन सुकुम्बासी र अव्यवस्थित बसोबासीको लगत सम्बन्धि निर्देशिका२०८३-०३-०२.pdf",
     "size": 1054641,
     "category": "निर्देशिका",
-    "totalSections": 9,
-    "totalSchedules": 0,
-    "totalRows": 9
+    "totalSections": 24,
+    "totalSchedules": 19,
+    "totalRows": 43
   },
   {
     "path": "pdfs/९. भुमि समस्या समाधान समिति/भूमिहीन-दलित-सुकुम्बासी-पहिचान र प्रमाणीकरण- मापदण्ड २०८३-३-०२.pdf",
@@ -255,9 +255,9 @@
     "filename": "भूमिहीन-दलित-सुकुम्बासी-पहिचान र प्रमाणीकरण- मापदण्ड २०८३-३-०२.pdf",
     "size": 421386,
     "category": "मापदण्ड",
-    "totalSections": 7,
-    "totalSchedules": 0,
-    "totalRows": 7
+    "totalSections": 9,
+    "totalSchedules": 4,
+    "totalRows": 13
   },
   {
     "path": "pdfs/९. भुमि समस्या समाधान समिति/विगतका आयोग, समिति र कार्यदलका बाँकी काम सम्पन्न गर्ने सम्बन्धी कार्यविधि २०८३-०३-०२.pdf",
@@ -268,9 +268,9 @@
     "filename": "विगतका आयोग, समिति र कार्यदलका बाँकी काम सम्पन्न गर्ने सम्बन्धी कार्यविधि २०८३-०३-०२.pdf",
     "size": 286194,
     "category": "कार्यविधि",
-    "totalSections": 7,
-    "totalSchedules": 0,
-    "totalRows": 7
+    "totalSections": 10,
+    "totalSchedules": 2,
+    "totalRows": 12
   },
   {
     "path": "pdfs/९. भुमि समस्या समाधान समिति/सुकुम्बासी समस्या समाधान आयोगका कार्यादेशको संगालो, २०७७-०१-०१.pdf",
@@ -281,9 +281,9 @@
     "filename": "सुकुम्बासी समस्या समाधान आयोगका कार्यादेशको संगालो, २०७७-०१-०१.pdf",
     "size": 973499,
     "category": "अन्य",
-    "totalSections": 5,
-    "totalSchedules": 0,
-    "totalRows": 5
+    "totalSections": 4,
+    "totalSchedules": 22,
+    "totalRows": 26
   },
   {
     "path": "pdfs/१०. कानुनी संगालो/१०.१. भुमि आयोग कानुन संगालो/सुकुम्बासी समस्या समाधान आयोगका कार्यादेशको संगालो, २०७७-०१-०१.pdf",
@@ -294,9 +294,9 @@
     "filename": "सुकुम्बासी समस्या समाधान आयोगका कार्यादेशको संगालो, २०७७-०१-०१.pdf",
     "size": 973499,
     "category": "अन्य",
-    "totalSections": 5,
-    "totalSchedules": 0,
-    "totalRows": 5
+    "totalSections": 4,
+    "totalSchedules": 22,
+    "totalRows": 26
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/केही नेपाल ऐन संशोधन गर्ने अध्यादेश, २०८३-०१-२०.pdf",
@@ -307,9 +307,9 @@
     "filename": "केही नेपाल ऐन संशोधन गर्ने अध्यादेश, २०८३-०१-२०.pdf",
     "size": 475050,
     "category": "अन्य",
-    "totalSections": 20,
+    "totalSections": 30,
     "totalSchedules": 0,
-    "totalRows": 20
+    "totalRows": 30
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/जग्गा उपलब्ध गराउने सम्बन्धि कार्यविधि, २०८३-०३-०२.pdf",
@@ -320,9 +320,9 @@
     "filename": "जग्गा उपलब्ध गराउने सम्बन्धि कार्यविधि, २०८३-०३-०२.pdf",
     "size": 492840,
     "category": "कार्यविधि",
-    "totalSections": 9,
-    "totalSchedules": 0,
-    "totalRows": 9
+    "totalSections": 14,
+    "totalSchedules": 12,
+    "totalRows": 26
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/जग्गा नापजाँच (आठौँ संसोधन २०५६) ऐन २०१९,२०५७-०३-०७.pdf",
@@ -333,9 +333,9 @@
     "filename": "जग्गा नापजाँच (आठौँ संसोधन २०५६) ऐन २०१९,२०५७-०३-०७.pdf",
     "size": 869778,
     "category": "अन्य",
-    "totalSections": 15,
+    "totalSections": 21,
     "totalSchedules": 0,
-    "totalRows": 15
+    "totalRows": 21
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/भुमि आयोग गठन आदेश, २०८१-०६-१४.pdf",
@@ -359,9 +359,9 @@
     "filename": "भुमि सम्बन्धि (आठौ संसोधन) ऐन २०२१, २०७६-१०-२८.pdf",
     "size": 1393804,
     "category": "अन्य",
-    "totalSections": 43,
-    "totalSchedules": 0,
-    "totalRows": 43
+    "totalSections": 75,
+    "totalSchedules": 2,
+    "totalRows": 77
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/भुमि सम्बन्धि (आठौ संसोधन)(भुमि आयोग प्रयोजन) ऐन २०२१, २०७६-१०-२८.pdf",
@@ -372,9 +372,9 @@
     "filename": "भुमि सम्बन्धि (आठौ संसोधन)(भुमि आयोग प्रयोजन) ऐन २०२१, २०७६-१०-२८.pdf",
     "size": 371041,
     "category": "अन्य",
-    "totalSections": 7,
+    "totalSections": 15,
     "totalSchedules": 0,
-    "totalRows": 7
+    "totalRows": 15
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/भूउपयोग ऐन २०७६, २०७६-०५-०६.pdf",
@@ -398,9 +398,9 @@
     "filename": "भूमि प्रशासन ( तेस्रो संसोधन २०८२) निर्देशिका २०८१, २०८२-१२-०६.pdf",
     "size": 3726200,
     "category": "निर्देशिका",
-    "totalSections": 180,
-    "totalSchedules": 99,
-    "totalRows": 279
+    "totalSections": 436,
+    "totalSchedules": 64,
+    "totalRows": 500
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/भूमि सम्बन्धी केही नेपाल ऐन संशोधन गर्ने अध्यादेश, २०८३-०६-२७.pdf",
@@ -411,9 +411,9 @@
     "filename": "भूमि सम्बन्धी केही नेपाल ऐन संशोधन गर्ने अध्यादेश, २०८३-०६-२७.pdf",
     "size": 344044,
     "category": "अन्य",
-    "totalSections": 6,
+    "totalSections": 22,
     "totalSchedules": 0,
-    "totalRows": 6
+    "totalRows": 22
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/भूमिहीन दलित भूमिहीन सुकुम्बासी र अव्यवस्थित बसोबासीको लगत सम्बन्धि निर्देशिका२०८३-०३-०२.pdf",
@@ -424,9 +424,9 @@
     "filename": "भूमिहीन दलित भूमिहीन सुकुम्बासी र अव्यवस्थित बसोबासीको लगत सम्बन्धि निर्देशिका२०८३-०३-०२.pdf",
     "size": 1054641,
     "category": "निर्देशिका",
-    "totalSections": 9,
-    "totalSchedules": 0,
-    "totalRows": 9
+    "totalSections": 24,
+    "totalSchedules": 19,
+    "totalRows": 43
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/भूमिहीन-दलित-सुकुम्बासी-पहिचान र प्रमाणीकरण- मापदण्ड २०८३-३-०२.pdf",
@@ -437,9 +437,9 @@
     "filename": "भूमिहीन-दलित-सुकुम्बासी-पहिचान र प्रमाणीकरण- मापदण्ड २०८३-३-०२.pdf",
     "size": 421386,
     "category": "मापदण्ड",
-    "totalSections": 7,
-    "totalSchedules": 0,
-    "totalRows": 7
+    "totalSections": 9,
+    "totalSchedules": 4,
+    "totalRows": 13
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/मालपोत (पाँचौ संसोधन २०५४) ऐन २०३४, २०५४-०८-२६.pdf",
@@ -450,9 +450,9 @@
     "filename": "मालपोत (पाँचौ संसोधन २०५४) ऐन २०३४, २०५४-०८-२६.pdf",
     "size": 598549,
     "category": "अन्य",
-    "totalSections": 29,
-    "totalSchedules": 1,
-    "totalRows": 30
+    "totalSections": 36,
+    "totalSchedules": 0,
+    "totalRows": 36
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/मुलुकी ( एघारौं संसोधन २०५८ )ऐन २०२०, २०५९-०६-१०.pdf",
@@ -463,9 +463,9 @@
     "filename": "मुलुकी ( एघारौं संसोधन २०५८ )ऐन २०२०, २०५९-०६-१०.pdf",
     "size": 1339571,
     "category": "अन्य",
-    "totalSections": 16,
-    "totalSchedules": 0,
-    "totalRows": 16
+    "totalSections": 23,
+    "totalSchedules": 1,
+    "totalRows": 24
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/वन सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्ने अध्यादेश, २०८३-०६-२७.pdf",
@@ -476,9 +476,9 @@
     "filename": "वन सम्बन्धी केही नेपाल ऐनलाई संशोधन गर्ने अध्यादेश, २०८३-०६-२७.pdf",
     "size": 740566,
     "category": "अन्य",
-    "totalSections": 3,
+    "totalSections": 25,
     "totalSchedules": 0,
-    "totalRows": 3
+    "totalRows": 25
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/विगतका आयोग, समिति र कार्यदलका बाँकी काम सम्पन्न गर्ने सम्बन्धी कार्यविधि २०८३-०३-०२.pdf",
@@ -489,9 +489,9 @@
     "filename": "विगतका आयोग, समिति र कार्यदलका बाँकी काम सम्पन्न गर्ने सम्बन्धी कार्यविधि २०८३-०३-०२.pdf",
     "size": 286194,
     "category": "कार्यविधि",
-    "totalSections": 7,
-    "totalSchedules": 0,
-    "totalRows": 7
+    "totalSections": 10,
+    "totalSchedules": 2,
+    "totalRows": 12
   },
   {
     "path": "pdfs/११. जोड्नु पर्ने कानुन/११.१. भुमि आयोग हाल/सुकुम्बासी समस्या समाधान आयोगका कार्यादेशको संगालो, २०७७-०१-०१.pdf",
@@ -502,9 +502,9 @@
     "filename": "सुकुम्बासी समस्या समाधान आयोगका कार्यादेशको संगालो, २०७७-०१-०१.pdf",
     "size": 973499,
     "category": "अन्य",
-    "totalSections": 5,
-    "totalSchedules": 0,
-    "totalRows": 5
+    "totalSections": 4,
+    "totalSchedules": 22,
+    "totalRows": 26
   },
   {
     "path": "pdfs/१२. मालपोत नापी सम्बन्धि ऐन नियम निर्देशिका कार्यविधि/१२.१. जग्गा नापजाँच (आठौँ संसोधन २०५६) ऐन २०१९,२०५७-०३-०७.pdf",
@@ -515,9 +515,9 @@
     "filename": "१२.१. जग्गा नापजाँच (आठौँ संसोधन २०५६) ऐन २०१९,२०५७-०३-०७.pdf",
     "size": 869778,
     "category": "ऐन",
-    "totalSections": 15,
+    "totalSections": 21,
     "totalSchedules": 0,
-    "totalRows": 15
+    "totalRows": 21
   },
   {
     "path": "pdfs/१२. मालपोत नापी सम्बन्धि ऐन नियम निर्देशिका कार्यविधि/१२.२. भुमि सम्बन्धि (आठौ संसोधन) ऐन २०२१, २०७६-१०-२८.pdf",
@@ -528,9 +528,9 @@
     "filename": "१२.२. भुमि सम्बन्धि (आठौ संसोधन) ऐन २०२१, २०७६-१०-२८.pdf",
     "size": 1393804,
     "category": "ऐन",
-    "totalSections": 43,
-    "totalSchedules": 0,
-    "totalRows": 43
+    "totalSections": 75,
+    "totalSchedules": 2,
+    "totalRows": 77
   },
   {
     "path": "pdfs/१२. मालपोत नापी सम्बन्धि ऐन नियम निर्देशिका कार्यविधि/१२.३. मालपोत (पाँचौ संसोधन २०५४) ऐन २०३४, २०५४-०८-२६.pdf",
@@ -541,9 +541,9 @@
     "filename": "१२.३. मालपोत (पाँचौ संसोधन २०५४) ऐन २०३४, २०५४-०८-२६.pdf",
     "size": 598549,
     "category": "ऐन",
-    "totalSections": 29,
-    "totalSchedules": 1,
-    "totalRows": 30
+    "totalSections": 36,
+    "totalSchedules": 0,
+    "totalRows": 36
   },
   {
     "path": "pdfs/१२. मालपोत नापी सम्बन्धि ऐन नियम निर्देशिका कार्यविधि/१२.४. भूउपयोग ऐन २०७६, २०७६-०५-०६.pdf",
@@ -567,9 +567,9 @@
     "filename": "१२.५.  जग्गा नाप जाँच ( दोस्रो संसोधन २०८३) नियमावली २०५८, २०८३-०२-२८.pdf",
     "size": 1358993,
     "category": "ऐन",
-    "totalSections": 37,
-    "totalSchedules": 24,
-    "totalRows": 61
+    "totalSections": 39,
+    "totalSchedules": 16,
+    "totalRows": 55
   },
   {
     "path": "pdfs/१२. मालपोत नापी सम्बन्धि ऐन नियम निर्देशिका कार्यविधि/१२.६. मालपोत (नवौं संसोधन २०८३) नियमावली २०३६, २०८३-०२-२८.pdf",
@@ -580,9 +580,9 @@
     "filename": "१२.६. मालपोत (नवौं संसोधन २०८३) नियमावली २०३६, २०८३-०२-२८.pdf",
     "size": 2515953,
     "category": "ऐन",
-    "totalSections": 24,
-    "totalSchedules": 37,
-    "totalRows": 61
+    "totalSections": 73,
+    "totalSchedules": 22,
+    "totalRows": 95
   },
   {
     "path": "pdfs/१२. मालपोत नापी सम्बन्धि ऐन नियम निर्देशिका कार्यविधि/१२.७. भूउपयोग (तेस्रो संसोधन २०८२ ) नियमावली २०७९, २०८३-०७-२७.pdf",
@@ -593,9 +593,9 @@
     "filename": "१२.७. भूउपयोग (तेस्रो संसोधन २०८२ ) नियमावली २०७९, २०८३-०७-२७.pdf",
     "size": 1158421,
     "category": "ऐन",
-    "totalSections": 20,
-    "totalSchedules": 0,
-    "totalRows": 20
+    "totalSections": 29,
+    "totalSchedules": 4,
+    "totalRows": 33
   },
   {
     "path": "pdfs/१२. मालपोत नापी सम्बन्धि ऐन नियम निर्देशिका कार्यविधि/१२.८. जग्गा नापजाँच तथा नक्सा स्रेस्ता अध्यावधिक सम्बन्धि निर्देशिका, २०८१.pdf",
@@ -606,9 +606,9 @@
     "filename": "१२.८. जग्गा नापजाँच तथा नक्सा स्रेस्ता अध्यावधिक सम्बन्धि निर्देशिका, २०८१.pdf",
     "size": 90121671,
     "category": "ऐन",
-    "totalSections": 7,
-    "totalSchedules": 2,
-    "totalRows": 9
+    "totalSections": 53,
+    "totalSchedules": 32,
+    "totalRows": 85
   },
   {
     "path": "pdfs/१२. मालपोत नापी सम्बन्धि ऐन नियम निर्देशिका कार्यविधि/१२.९. भूमि प्रशासन ( तेस्रो संसोधन २०८२) निर्देशिका २०८१, २०८२-१२-०६.pdf",
@@ -619,8 +619,8 @@
     "filename": "१२.९. भूमि प्रशासन ( तेस्रो संसोधन २०८२) निर्देशिका २०८१, २०८२-१२-०६.pdf",
     "size": 3726200,
     "category": "ऐन",
-    "totalSections": 180,
-    "totalSchedules": 99,
-    "totalRows": 279
+    "totalSections": 436,
+    "totalSchedules": 64,
+    "totalRows": 500
   }
 ]

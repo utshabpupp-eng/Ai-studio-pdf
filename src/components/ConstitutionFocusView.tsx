@@ -6,12 +6,14 @@ interface ConstitutionFocusViewProps {
   rows: LegalRow[];
   onOpenModal: (row: LegalRow) => void;
   onOpenPdf: (path: string, page: string) => void;
+  onOpenInMdSync?: (page?: string) => void;
 }
 
 export const ConstitutionFocusView: React.FC<ConstitutionFocusViewProps> = ({
   rows,
   onOpenModal,
   onOpenPdf,
+  onOpenInMdSync,
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeFilter, setActiveFilter] = useState<'all' | 'dhara' | 'anusuchi'>('all');
@@ -82,6 +84,16 @@ export const ConstitutionFocusView: React.FC<ConstitutionFocusViewProps> = ({
           </div>
 
           <div className="flex sm:flex-col gap-2 shrink-0">
+            {onOpenInMdSync && (
+              <button
+                onClick={() => onOpenInMdSync('३')}
+                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-semibold text-xs sm:text-sm shadow-lg shadow-indigo-950/40 transition-all cursor-pointer"
+                title="संविधानलाई Markdown र PDF दुवै स्क्रिनमा सँगै हेर्नुहोस्"
+              >
+                <Columns3 className="w-4 h-4 text-amber-300" />
+                <span>MD रिडर र PDF सिंक (Dual View)</span>
+              </button>
+            )}
             <button
               onClick={() => onOpenPdf('pdfs/१. नेपालको संबिधान/नेपालको संबिधान (२०७२-०६-०३).pdf', '३')}
               className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-medium text-xs sm:text-sm shadow-lg shadow-red-900/30 transition-all cursor-pointer"

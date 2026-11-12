@@ -11,6 +11,7 @@ interface TenColumnTableProps {
   documents: DocumentSummary[];
   onOpenModal: (row: LegalRow) => void;
   onOpenPdf: (path: string, page: string) => void;
+  onOpenMdSync?: (filename: string, page?: string) => void;
   selectedDocFilter?: string;
   onClearDocFilter?: () => void;
   onExportExcel: (filteredRows: LegalRow[]) => void;
@@ -62,6 +63,7 @@ export const TenColumnTable: React.FC<TenColumnTableProps> = ({
   documents,
   onOpenModal,
   onOpenPdf,
+  onOpenMdSync,
   selectedDocFilter,
   onClearDocFilter,
   onExportExcel,
@@ -673,6 +675,41 @@ export const TenColumnTable: React.FC<TenColumnTableProps> = ({
           </div>
         </div>
       </div>
+
+      {/* Active Document Filter Quick Banner */}
+      {docFilter !== 'all' && (
+        <div className="bg-gradient-to-r from-indigo-50 to-blue-50 border border-indigo-200 rounded-xl p-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs shadow-xs">
+          <div className="flex items-center gap-2.5">
+            <div className="w-7 h-7 rounded-lg bg-indigo-600 text-white flex items-center justify-center shrink-0">
+              <FileText className="w-4 h-4" />
+            </div>
+            <div>
+              <div className="text-[11px] text-slate-500">फिल्टर गरिएको PDF कागजात:</div>
+              <div className="font-bold text-slate-900 text-sm">{docFilter}</div>
+            </div>
+          </div>
+          <div className="flex items-center gap-2">
+            {onOpenMdSync && (
+              <button
+                onClick={() => onOpenMdSync(docFilter, '1')}
+                className="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold transition-colors cursor-pointer flex items-center gap-1 shadow-xs"
+                title="यस कागजातलाई Markdown र PDF सँगै हेर्नुहोस्"
+              >
+                <span>MD रिडर र PDF सिंकमा खोल्नुहोस्</span>
+              </button>
+            )}
+            <button
+              onClick={() => {
+                setDocFilter('all');
+                if (onClearDocFilter) onClearDocFilter();
+              }}
+              className="px-2.5 py-1.5 rounded-lg bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 transition-colors cursor-pointer"
+            >
+              फिल्टर हटाउनुहोस्
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Main Table Container */}
       <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
